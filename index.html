@@ -1,0 +1,52 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <title>Contact-form</title>
+  </head>
+  <body>
+    <h3>Contact Form!</h3>
+    <main class="container">
+      <form action="#">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name..."
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Last name..."
+        />
+
+        <label for="country">Country</label>
+        <select name="country" id="conuntry">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea
+          name="subject"
+          id="subject"
+          cols="30"
+          rows="10"
+          placeholder="Write somethin..."
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
+  </body>
+</html>
